@@ -16,4 +16,8 @@ using namespace std;
 
 > Două numere se numesc ***oglindite*** dacă fiecare se obține din celălalt, prin parcurgerea cifrelor acestuia de la dreapta la stânga.
 
+>Două numere se numesc ***impar-oglindite*** dacă numerele obținute din acestea, prin îndepărtarea tuturor cifrelor lor pare, sunt oglindite.
 
+##### 4. Se citesc două numere naturale, x și y, și se cere să se scrie valoarea 1 dacă x și y sunt impar-oglindite sau valoarea 0 în caz contrar. Scrieți, în C++, programul de rezolvare a problemei enunțate.
+
+    ex: dacă x=523 și y=84356, se scrie 1, iar dacă x=523 și y=84536 sau x=523 și y=84576 sau x=40 și y=86, se scrie 0.
