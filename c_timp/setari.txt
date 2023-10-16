@@ -1,0 +1,3 @@
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host ('\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n')"
+"code-runner.clearPreviousOutput": true,
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && cls && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host ('\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n')",
