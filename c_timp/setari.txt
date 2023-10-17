@@ -1,3 +1,10 @@
-"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host ('\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n')"
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host ('\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n') "
 "code-runner.clearPreviousOutput": true,
-"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && cls && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host ('\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n')",
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && cls && $executionTime = Measure-Command { .\\$fileNameWithoutExt } ; Write-Host (\nTotal execution time: ' + $executionTime.TotalSeconds + ' seconds\n')",
+
+"cpp": "cd $dir && g++ -Wall $fileName -o $fileNameWithoutExt && cls &&  && echo Process returned 0 (0x0)   execution time : 11 && pause"
+
+
+
+
+"cpp": "cd $dir ; g++ $fileName -o $fileNameWithoutExt ; cls ; echo ('Process started \n');$start = Get-Date ; .\\$fileNameWithoutExt ; $end = Get-Date ; $executionTime = New-TimeSpan -Start $start -End $end ; echo ('\nExecution time: ' + [math]::Round($executionTime.TotalSeconds, 2) + ' seconds\n') ; pause"
