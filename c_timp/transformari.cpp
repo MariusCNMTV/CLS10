@@ -24,7 +24,7 @@ void prob8()
 }
 void prob9()
 {
-    int n, x, y, m = 0;
+    int n, x, y = 1, m = 0;
     cin >> n;
     while (n > 0 && y > 0)
     {

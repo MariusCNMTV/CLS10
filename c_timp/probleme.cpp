@@ -101,6 +101,6 @@ void pana_0()
 
 int main()
 {
-    pana_0();
+    s_numere_p();
     return 0;
 }
