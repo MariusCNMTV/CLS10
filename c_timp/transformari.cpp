@@ -24,9 +24,10 @@ void prob8()
 }
 void prob9()
 {
-    int n, x, y = 1, m = 0;
-    cin >> n;
-    while (n > 0 && y > 0)
+    int x, y = 1, m = 0;
+    // cin >> n;
+    long long n = 121212121212888121212;
+    while (n > 0 && y > 0 && m != 1)
     {
         x = n % 10;
         y = n / 100 % 10;
